@@ -33,3 +33,18 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.btn {
+    padding: 17px 48px;
+    background: var(--bg);
+    color: var(--w);
+    font-family: var(--rm);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: var(--or);
+    color: var(--bl);
+}
