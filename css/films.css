@@ -83,16 +83,18 @@
 }
 
 @media screen and (max-width:1140px) {
-    .films__wrap{
-grid-template-columns: repeat(2,225px);
-justify-content: center;
+    .films__wrap {
+        grid-template-columns: repeat(2, 225px);
+        justify-content: center;
     }
 }
-@media screen and (max-width:568px){
-    .films__wrap{
-        grid-template-columns: repeat(1,255px);
+
+@media screen and (max-width:568px) {
+    .films__wrap {
+        grid-template-columns: repeat(1, 255px);
     }
-    .films__card{
+
+    .films__card {
         max-width: 300px;
     }
 }
