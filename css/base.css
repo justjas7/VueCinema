@@ -58,10 +58,10 @@ body {
 
 .title__h {
     font-family: var(--cr);
-    font-size: 14px;
+    font-size: 36px;
     font-weight: 400;
-    line-height: 10px;
-    padding: 0 0 10px;
+    padding-bottom: 10px;
+    line-height: 40px;
     border-bottom: 2px solid var(--or);
     color: var(--or);
     text-transform: capitalize;
